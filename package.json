@@ -1,0 +1,26 @@
+{
+  "name": "dio-api-project",
+  "version": "1.0.0",
+  "description": "Projeto de testes de API com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauedota/DIO_PROJETO_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauedota/DIO_PROJETO_API/issues"
+  },
+  "homepage": "https://github.com/kauedota/DIO_PROJETO_API#readme",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1",
+    "cypress-plugin-api": "^2.11.2"
+  }
+}
